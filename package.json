@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "percy-cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "percy exec -- cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OgnjenPetrovic/devtech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OgnjenPetrovic/devtech/issues"
+  },
+  "homepage": "https://github.com/OgnjenPetrovic/devtech#readme",
+  "devDependencies": {
+    "@percy/cypress": "^2.3.1",
+    "cypress": "^4.7.0"
+  }
+}
