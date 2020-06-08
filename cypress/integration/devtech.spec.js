@@ -27,4 +27,41 @@ describe('Integration test with visual testing', function() {
         cy.visit('solutions/predictive-analytics/');
         cy.percySnapshot();
     });
+
+    // INDUSTRIES
+    it('TC - 06 Loads the industries page', function() {
+        cy.visit('industries/');
+        cy.percySnapshot();
+    });
+
+    it('TC - 07 Loads the industries page - software vendors', function() {
+        cy.visit('industries/software-vendors/');
+        cy.percySnapshot();
+    });
+
+    it('TC - 08 Loads the industries page - service providers', function() {
+        cy.visit('industries/service-providers/');
+        cy.percySnapshot();
+    });
+
+    //ALLIANCES
+
+    it('TC - 09 Loads the alliances page', function() {
+        cy.visit('alliances/');
+        cy.percySnapshot();
+    });
+
+    //CAREERS
+
+    it('TC - 10 Loads the careers page', function() {
+        cy.visit('search-and-apply/');
+        cy.percySnapshot();
+    });
+
+    it('TC - 10 Loads the careers page', function() {
+        cy.visit('search-and-apply/');
+        cy.percySnapshot();
+    });
+   
+    
   });
