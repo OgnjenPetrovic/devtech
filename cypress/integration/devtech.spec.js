@@ -28,6 +28,16 @@ describe('Integration test with visual testing', function() {
         cy.percySnapshot();
     });
 
+    it('TC - 20 Team as a Service', function() {
+        cy.visit('solutions/team-as-a-service/');
+        cy.percySnapshot();
+    });
+
+    it('TC - 21 Fixed-Scope', function() {
+        cy.visit('solutions/service-delivery-fixed-scope/');
+        cy.percySnapshot();
+    });
+
     // INDUSTRIES
     it('TC - 06 Loads the industries page', function() {
         cy.visit('industries/');
@@ -94,6 +104,11 @@ describe('Integration test with visual testing', function() {
 
     it('TC - 17 Privacy policy', function() {
         cy.visit('privacy-policy/');
+        cy.percySnapshot();
+    });
+
+    it('TC - 19 Cookie Policy', function() {
+        cy.visit('cookie-policy/');
         cy.percySnapshot();
     });
 
